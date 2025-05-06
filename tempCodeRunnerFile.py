@@ -47,8 +47,9 @@ phone_Entry = Entry(root, font="Arial 15")
 phone_Entry.place(x=150, y=130)
 
 #Insert Button
-inset_btn = Button(root, text= "Insert", command= Insert, font= "Arial 18",
-                   background="blue").place(x=50, y=180)
+insert_button = Button(root, text="Insert", command= Insert, font= ("Arial", 18),
+                       background="blue")
+insert_button.place(x=50, y=180)
 root.mainloop()
 
 
